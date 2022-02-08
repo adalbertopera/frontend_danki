@@ -26,6 +26,7 @@ header{
     background-size: cover;
     background-position: center;
     background-image: url(../imagens/capa.png);
+    font-weight: 300;
 }
 
 header nav{
@@ -60,14 +61,20 @@ header nav li a{
     margin: 140px 150px;
 }
 
-.chamada1{
+.chamada1 h2{
     font-size: 30px;
     color: white;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 .chamada1 p{
     font-size: 15px;
     color: white;
     margin-top: 10px;
+}
+
+section.sessao1{
+    width: 100%;
+    background-color: #472562;
+    padding: 20px 2%;
 }
